@@ -21,10 +21,7 @@
   color: pink;
 }
 
-#basic,
-#basic p {
-  color: pink;
-}
+
 
 #basic h1,
 #basic h1 + p,
@@ -59,3 +56,10 @@ h1 {
 #basic div:first-child + p + p {
   font-weight: bold;
 }
+#Skyblue {
+  color: Skyblue;
+  }
+  
+  #rgb {
+  color: rgb(255, 192, 203);
+  }
