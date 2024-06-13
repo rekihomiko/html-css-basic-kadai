@@ -50,6 +50,7 @@ footer {
 .contents img{
   margin:10px 0px ;
   flex-basis: 70%;
+  width: 100px;
 }
 a{
   color: rgb(255, 255, 255)
@@ -72,7 +73,9 @@ a:hover{
   display: flex;
   flex-direction: column;
  }
+
+  .contents {
+    flex-basis: 100%; 
+  }
 }
 
-
-  
