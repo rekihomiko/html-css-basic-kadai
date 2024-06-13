@@ -21,6 +21,7 @@ main{
   display: flex;
   justify-content:space-around ;
   flex-wrap: wrap;
+  flex-direction: row;
 }
 .contents{
   border: 3px solid rgb(238, 204, 204);
@@ -73,9 +74,5 @@ a:hover{
  }
 }
 
- @media screen and (min-width: 768px){
- h1 {
-  width: 100%; 
-  margin: 0 auto; 
- }
-  }
+
+  
